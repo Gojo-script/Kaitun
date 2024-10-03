@@ -2486,7 +2486,7 @@ ToggleButton.BorderSizePixel = 0
 ToggleButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ToggleButton.Size = UDim2.new(0, 50, 0, 50)
 ToggleButton.Font = Enum.Font.SourceSans
-ToggleButton.Text = "Open|Close"
+ToggleButton.Text = "🪐Galaxy hub🪐"
 ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 ToggleButton.TextSize = 14.000
 ToggleButton.Draggable = true
@@ -2523,8 +2523,8 @@ local listfastattack = {'Normal Attack','Fast Attack','Super Fast Attack', 'God 
 		_G.Fast_Delay = 0.25
 	elseif _G.FastAttackFaiFao_Mode == "Super Fast Attack" then
 		_G.Fast_Delay = 0.05
-        elseif _G.FastAttackFaiFao_Mode == "God Atack" the
-	       _G.Fast_Delay = 0.01
+        elseif _G.FastAttackFaiFao_Mode == "God Atack" then
+	        _G.Fast_Delay = 0.01
 	end
 end)
 
