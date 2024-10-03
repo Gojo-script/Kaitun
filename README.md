@@ -4,8 +4,8 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "Galaxy Hub🪐",
-    SubTitle = "Version 1",
+    Title = "🪐Galaxy Hub🪐",
+    SubTitle = "Version 2 BETA",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
     Acrylic = false,
