@@ -4,7 +4,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "Fai Fao Hub",
+    Title = "🪐 Galaxy Hub🪐",
     SubTitle = "Version 2",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
@@ -2472,7 +2472,7 @@ function BTP(p)
 --------------------------------------------------------------------------------------------------------------------------------------------
 ---Close UI
 local ToggleUI = Instance.new("ScreenGui")
-local ToggleButton = Instance.new("TextButton")
+local ToggleButton = Instance.new("Galaxy Hub")
 local ToggleButtonHUI = Instance.new("UICorner")
 ToggleUI.Name = "ToggleUI"
 ToggleUI.Parent = game.CoreGui
@@ -2486,8 +2486,8 @@ ToggleButton.BorderSizePixel = 0
 ToggleButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ToggleButton.Size = UDim2.new(0, 50, 0, 50)
 ToggleButton.Font = Enum.Font.SourceSans
-ToggleButton.Text = "Open|Close"
-ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton.Text = "Galaxy🪐"
+ToggleButton.TextColor3 = Color3.fromRGB(0, 0, 139)
 ToggleButton.TextSize = 14.000
 ToggleButton.Draggable = true
 ToggleButton.MouseButton1Click:Connect(function()
@@ -2506,7 +2506,7 @@ end
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Create Tabs
 local Farming = Tabs.Main:AddSection("Farming")
-local listfastattack = {'Normal Attack','Fast Attack','Super Fast Attack'}
+local listfastattack = {'Normal Attack','Fast Attack','Super Fast Attack','Ultra Attack','Galaxy🪐 Attack'}
 
     local DropdownDelayAttack = Tabs.Main:AddDropdown("DropdownDelayAttack", {
         Title = "Select Fast Attack",
@@ -2523,6 +2523,10 @@ local listfastattack = {'Normal Attack','Fast Attack','Super Fast Attack'}
 		_G.Fast_Delay = 0.25
 	elseif _G.FastAttackFaiFao_Mode == "Super Fast Attack" then
 		_G.Fast_Delay = 0.05
+        elseif _G.FastAttackFaiFao_Mode == "Ultra Atack" then
+		_G.Fast_Delay = 0.1
+        elseif _G.FastAttackFaiFao_Mode == "Galaxy🪐 Attack" then
+		_G.Fast_Delay = 0
 	end
 end)
 
