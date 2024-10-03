@@ -2477,7 +2477,7 @@ local ToggleButtonHUI = Instance.new("UICorner")
 ToggleUI.Name = "ToggleUI"
 ToggleUI.Parent = game.CoreGui
 ToggleUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-ToggleButton.Image = "rbxassetid://90061446421832"
+end)
 
 ToggleButton.Name = "Galaxy hub🪐"
 ToggleButton.Parent = ToggleUI
