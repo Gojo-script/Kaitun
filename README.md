@@ -2472,12 +2472,11 @@ function BTP(p)
 --------------------------------------------------------------------------------------------------------------------------------------------
 ---Close UI
 local ToggleUI = Instance.new("ScreenGui")
-local ToggleButton = Instance.new("Galaxy Hub🪐 ")
+local ToggleButton = Instance.new("TextButton")
 local ToggleButtonHUI = Instance.new("UICorner")
 ToggleUI.Name = "ToggleUI"
 ToggleUI.Parent = game.CoreGui
 ToggleUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-end)
 
 ToggleButton.Name = "Galaxy hub🪐"
 ToggleButton.Parent = ToggleUI
