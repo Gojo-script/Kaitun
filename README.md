@@ -2472,15 +2472,16 @@ function BTP(p)
 --------------------------------------------------------------------------------------------------------------------------------------------
 ---Close UI
 local ToggleUI = Instance.new("ScreenGui")
-local ToggleButton = Instance.new("TextButton")
+local ToggleButton = Instance.new("Galaxy Hub🪐 ")
 local ToggleButtonHUI = Instance.new("UICorner")
 ToggleUI.Name = "ToggleUI"
 ToggleUI.Parent = game.CoreGui
 ToggleUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ToggleButton.Image = "rbxassetid://90061446421832"
 
-ToggleButton.Name = "ToggleButton"
+ToggleButton.Name = "Galaxy hub🪐"
 ToggleButton.Parent = ToggleUI
-ToggleButton.BackgroundColor3 = Color3.fromRGB(30,20,20)
+ToggleButton.BackgroundColor3 = Color3.fromRGB(0, 0, 139)
 ToggleButton.BackgroundTransparency = 0.1
 ToggleButton.BorderSizePixel = 0
 ToggleButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
@@ -2506,7 +2507,7 @@ end
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Create Tabs
 local Farming = Tabs.Main:AddSection("Farming")
-local listfastattack = {'Normal Attack','Fast Attack','Super Fast Attack', 'God Atack'}
+local listfastattack = {'Normal Attack','Fast Attack','Super Fast Attack', '🪐Galaxy hub🪐 Atack','Ultra Fast Atack (not recommended'
 
     local DropdownDelayAttack = Tabs.Main:AddDropdown("DropdownDelayAttack", {
         Title = "Select Fast Attack",
@@ -2523,8 +2524,10 @@ local listfastattack = {'Normal Attack','Fast Attack','Super Fast Attack', 'God 
 		_G.Fast_Delay = 0.25
 	elseif _G.FastAttackFaiFao_Mode == "Super Fast Attack" then
 		_G.Fast_Delay = 0.05
-        elseif _G.FastAttackFaiFao_Mode == "God Atack" then
-	        _G.Fast_Delay = 0.01
+        elseif _G.FastAttackFaiFao_Mode == "🪐Galaxy hub🪐 Atack" then
+	        _G.Fast_Delay = 0.02
+	 elseif _G.FastAttackFaiFao_Mode == "Ultra Fast Atack (not recommended" then
+	        _G.Fast_Delay = 0
 	end
 end)
 
